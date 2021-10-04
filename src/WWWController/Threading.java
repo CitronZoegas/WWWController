@@ -16,7 +16,7 @@ public class Threading {
 
     public Threading(Controller controller, String dirPath) {
         this.controller = controller;
-        final File baseDir = new File("C:/Windows/System32");
+        final File baseDir = new File("C:/Windows/System32"); // Choose what directory to start searching from.
         final FindFile ff = new FindFile(dirPath, baseDir, 6,controller);
         final long ini = System.currentTimeMillis();
         final File f = ff.find();

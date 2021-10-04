@@ -10,7 +10,7 @@ import java.awt.event.ActionListener;
  * I want to make a program that can disable websites on command for people who either work from home
  * or have problems with focusing on the important things in life.
  *
- * @Author Petter Knutsson (With help from the internet).
+ * @Author CitronZoegas(With help from the internet).
  *
  * **/
 
@@ -96,11 +96,9 @@ public class MainPanel extends JPanel {
         taSource.append(fileFound);
     }
     private void addWebsite(){
-        //System.out.println(tfReplaceWith.getText());
         controller.vroomVroomRun(tfReplaceWith, taSource.getText(),tfReplaceWith.getText());
     }
     private void deleteWebsite() {
-        //System.out.println(tfReplaceWith.getText());
         controller.vroomDeleteRun(tfReplaceWith,  taSource.getText(),tfReplaceWith.getText());
     }
 }

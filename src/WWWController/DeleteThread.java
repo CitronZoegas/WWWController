@@ -1,9 +1,6 @@
 package WWWController;
 
-import java.io.BufferedReader;
 import java.io.File;
-import java.io.FileReader;
-import java.io.PrintWriter;
 import java.nio.file.Files;
 import java.nio.file.StandardOpenOption;
 import java.util.List;
@@ -34,7 +31,7 @@ public class DeleteThread extends Thread{
             Files.write(file.toPath(),stringOut, StandardOpenOption.WRITE,StandardOpenOption.TRUNCATE_EXISTING);
             System.out.println("SUCCESS");
         } catch (Exception e) {
-            System.out.println("YOU SUCK");
+            System.out.println("nope");
             e.printStackTrace();
         }
     }

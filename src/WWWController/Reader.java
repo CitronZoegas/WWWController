@@ -33,11 +33,7 @@ public class Reader extends Thread {
                 bw.newLine();
                 bw.close();
 
-                /**
-                 *
-                 * Printing it out in the console
-                 *
-                 * **/
+                //printring to consol
                 File file = new File(filePath);
                 String strTemp;
                 BufferedReader br = new BufferedReader(new FileReader(file));
