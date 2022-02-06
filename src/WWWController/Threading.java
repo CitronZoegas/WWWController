@@ -10,7 +10,7 @@ public class Threading {
     private Controller controller;
     /**
      * These classes are used to find whatever file you want inside of the System32 directory.
-     * You can obviously choose to search through the whole computer by only typing C:/ or D:/ but the search will stop
+     * You can obviously choose to search through the whole computer by only typing C:/ or D:/(FOR EXAMPLE) but the search will stop
      * after the first file which name is equal to the string the user inputs, so you might not find the one you were looking for.
      */
 
