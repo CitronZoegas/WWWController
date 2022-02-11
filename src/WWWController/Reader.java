@@ -4,7 +4,6 @@ import java.io.*;
 
 public class Reader extends Thread {
 
-
     //private long filePath;
     private Controller controller;
     private String websiteString;
@@ -15,15 +14,11 @@ public class Reader extends Thread {
         this.filePath = filePath;
         this.websiteString = websiteString;
         start();
-
     }
 
     @Override
     public void run() {
-
             try{
-
-
                 //Writing things
                 FileWriter fw = new FileWriter(filePath,true);
                 BufferedWriter bw = new BufferedWriter(fw);
@@ -33,15 +28,14 @@ public class Reader extends Thread {
                 bw.newLine();
                 bw.close();
 
-                //printring to consol
+                //printring to console
                 File file = new File(filePath);
-                String strTemp;
                 BufferedReader br = new BufferedReader(new FileReader(file));
+
+                String strTemp;
                 while((strTemp = br.readLine())!= null) {
                     System.out.println(strTemp);
                 }
-
-
             } catch (Exception e) {
                 e.printStackTrace();
             }
