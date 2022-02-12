@@ -17,10 +17,10 @@
                   <Image url="@../icons/backIcon.png" />
                </image>
             </ImageView>
-            <Label layoutX="161.0" layoutY="23.0" prefHeight="54.0" prefWidth="292.0" style="-fx-font-style: Arial; -fx-font-size: 35;" text="Remove a website" />
+            <Label layoutX="119.0" layoutY="23.0" prefHeight="54.0" prefWidth="409.0" style="-fx-font-style: Arial; -fx-font-size: 28;" text="Make a website available again" />
          </children>
       </AnchorPane>
-      <TextField layoutX="140.0" layoutY="288.0" prefHeight="39.0" prefWidth="333.0" promptText="Enter the website you want to block..." />
-      <Button layoutX="187.0" layoutY="496.0" mnemonicParsing="false" prefHeight="92.0" prefWidth="244.0" text="Button" />
+      <TextField layoutX="140.0" layoutY="288.0" prefHeight="39.0" prefWidth="333.0" promptText="Enter the website you want to free..." />
+      <Button layoutX="187.0" layoutY="496.0" mnemonicParsing="false" prefHeight="92.0" prefWidth="244.0" text="Remove block" />
    </children>
 </AnchorPane>
